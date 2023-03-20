@@ -1,0 +1,33 @@
+#img-seleccionada{
+	background-color: rgba(43, 42, 42, 0.823); 	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+}
+#div-child-img-selected{
+	position: relative;
+	width: 600px;
+	height: 400px;
+}
+#div-child-img-selected img{
+	width: 100%;
+	height: 100%;
+}
+#div-child-img-selected button{
+	font-size: x-large;
+	font-weight: 700;
+	padding: 5px 10px;
+	border-radius: 50px;
+	position: absolute;
+	top: -17px;
+	right: -17px;
+}
+@media (max-width: 650px) {
+	#div-child-img-selected{
+		width: 200px;
+		height: 200px;
+	}
+}
