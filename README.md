@@ -1,3 +1,3 @@
 # React
 practicing react
-mgg-img-gallery.netlify.app
+https://mgg-img-gallery.netlify.app
